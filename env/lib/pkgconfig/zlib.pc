@@ -1,0 +1,13 @@
+prefix=/Users/divya/Documents/AI&ML/NLP/Text-Summariser-Project/env
+exec_prefix=/Users/divya/Documents/AI&ML/NLP/Text-Summariser-Project/env
+libdir=/Users/divya/Documents/AI&ML/NLP/Text-Summariser-Project/env/lib
+sharedlibdir=/Users/divya/Documents/AI&ML/NLP/Text-Summariser-Project/env/lib
+includedir=/Users/divya/Documents/AI&ML/NLP/Text-Summariser-Project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
